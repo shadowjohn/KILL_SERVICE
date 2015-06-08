@@ -1,0 +1,13 @@
+C:\Users\john\Desktop\KILL_SERVICE_C#\KILL_SERVICE\KILL_SERVICE\obj\x86\Debug\KILL_SERVICE.Form1.resources
+C:\Users\john\Desktop\KILL_SERVICE_C#\KILL_SERVICE\KILL_SERVICE\obj\x86\Debug\KILL_SERVICE.Properties.Resources.resources
+C:\Users\john\Desktop\KILL_SERVICE_C#\KILL_SERVICE\KILL_SERVICE\obj\x86\Debug\KILL_SERVICE.csproj.GenerateResource.Cache
+C:\Users\john\Desktop\KILL_SERVICE_C#\KILL_SERVICE\KILL_SERVICE\obj\x86\Debug\KILL_SERVICE.TrustInfo.xml
+C:\Users\john\Desktop\KILL_SERVICE_C#\KILL_SERVICE\KILL_SERVICE\obj\x86\Debug\KILL_SERVICE.exe.manifest
+C:\Users\john\Desktop\KILL_SERVICE_C#\KILL_SERVICE\KILL_SERVICE\obj\x86\Debug\KILL_SERVICE.pdb
+C:\Users\john\Desktop\KILL_SERVICE_C#\KILL_SERVICE\KILL_SERVICE\bin\Debug\KILL_SERVICE.exe.config
+C:\Users\john\Desktop\KILL_SERVICE_C#\KILL_SERVICE\KILL_SERVICE\bin\Debug\KILL_SERVICE.exe.manifest
+C:\Users\john\Desktop\KILL_SERVICE_C#\KILL_SERVICE\KILL_SERVICE\bin\Debug\KILL_SERVICE.application
+C:\Users\john\Desktop\KILL_SERVICE_C#\KILL_SERVICE\KILL_SERVICE\bin\Debug\KILL_SERVICE.exe
+C:\Users\john\Desktop\KILL_SERVICE_C#\KILL_SERVICE\KILL_SERVICE\bin\Debug\KILL_SERVICE.pdb
+C:\Users\john\Desktop\KILL_SERVICE_C#\KILL_SERVICE\KILL_SERVICE\obj\x86\Debug\KILL_SERVICE.application
+C:\Users\john\Desktop\KILL_SERVICE_C#\KILL_SERVICE\KILL_SERVICE\obj\x86\Debug\KILL_SERVICE.exe
