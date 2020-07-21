@@ -59,7 +59,7 @@ namespace runThd_namespace
                     {
                         for (int i = 0, max_i = mdata.Length; i < max_i; i++)
                         {
-                            if (my.trim(my.mainname(mdata[i])) == theprocess.ProcessName)
+                            if (my.trim(my.mainname(mdata[i])).ToLower() == theprocess.ProcessName.ToLower())
                             {
                                 try
                                 {

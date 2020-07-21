@@ -29,11 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.ADD_BTN = new System.Windows.Forms.Button();
             this.START_STOP_BTN = new System.Windows.Forms.Button();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.LISTS_DATA = new System.Windows.Forms.DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.LISTS_DATA)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,6 +72,7 @@
             // 
             // notifyIcon1
             // 
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
             this.notifyIcon1.Text = "notifyIcon1";
             this.notifyIcon1.Visible = true;
             this.notifyIcon1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseClick);
@@ -86,17 +89,33 @@
             this.LISTS_DATA.TabIndex = 2;
             this.LISTS_DATA.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.LISTS_DATA_CellContentClick);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(10, 44);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "說明";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(333, 414);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.START_STOP_BTN);
             this.Controls.Add(this.LISTS_DATA);
             this.Controls.Add(this.ADD_BTN);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(349, 453);
+            this.MinimumSize = new System.Drawing.Size(349, 453);
             this.Name = "Form1";
-            this.Text = "KillService ( http://3wa.tw 羽山秋人 ) - V1.0";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "KillService";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Resize += new System.EventHandler(this.Form1_Resize_1);
             ((System.ComponentModel.ISupportInitialize)(this.LISTS_DATA)).EndInit();
@@ -112,6 +131,7 @@
         private System.Windows.Forms.Button START_STOP_BTN;
         private System.Windows.Forms.NotifyIcon notifyIcon1;
         private System.Windows.Forms.DataGridView LISTS_DATA;
+        private System.Windows.Forms.Button button1;
     }
 }
 
