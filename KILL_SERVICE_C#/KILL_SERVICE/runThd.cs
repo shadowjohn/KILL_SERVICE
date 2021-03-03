@@ -17,17 +17,17 @@ namespace runThd_namespace
 
         public runThd()
         {
- 
+
         }
- 
+
         public void Start()
         {
             if (Thd != null)
-                throw(new Exception("Thread Already Running"));
+                throw (new Exception("Thread Already Running"));
             Thd = new Thread(new ParameterizedThreadStart(Run));
             Thd.Start();
         }
- 
+
         public void Stop()
         {
             if (Thd != null)
@@ -40,10 +40,10 @@ namespace runThd_namespace
                 //throw (new Exception("Thread Already Stopped"));
             }
         }
- 
+
         private void Run(object args)
         {
- 
+
             try
             {
                 while (true)
@@ -54,16 +54,18 @@ namespace runThd_namespace
                     string data = my.trim(my.b2s(my.file_get_contents(Form1.setting_path)));
                     string[] mdata = my.explode(",", data);
                     Array.Sort<string>(mdata);
-                    Process[] processlist = Process.GetProcesses();                    
+                    Process[] processlist = Process.GetProcesses();
                     foreach (Process theprocess in processlist)
                     {
                         for (int i = 0, max_i = mdata.Length; i < max_i; i++)
                         {
+                            //MessageBox.Show(theprocess.ProcessName);                            
                             if (my.trim(my.mainname(mdata[i])).ToLower() == theprocess.ProcessName.ToLower())
                             {
                                 try
                                 {
-                                    theprocess.Kill();
+                                    //theprocess.Kill();
+                                    my.KillProcessAndChildrens(theprocess.Id);
                                 }
                                 catch (Exception ex)
                                 {
@@ -71,8 +73,8 @@ namespace runThd_namespace
                                 }
                                 break;
                             }
-                        }                        
-                    }                                        
+                        }
+                    }
                     Thread.Sleep(100);
                 }
             }
