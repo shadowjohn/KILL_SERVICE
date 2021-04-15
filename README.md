@@ -9,7 +9,7 @@ Process auto killer<br>
 <br>                                                                                        
 於是就先寫一支全自動服務停止機，每0.1秒自動停掉有列表的服務~<br>
 <br>
-<img src="![image](https://user-images.githubusercontent.com/1788472/114839815-ca8b8400-9e08-11eb-9464-849bdb6932c2.png)">
+<img src="https://user-images.githubusercontent.com/1788472/114839815-ca8b8400-9e08-11eb-9464-849bdb6932c2.png">
 <br>
 有了這支真的就方便多了，連電腦也跑的更快，一堆奇怪的服務就自動關一關，持續監控。<br>
 <br>
