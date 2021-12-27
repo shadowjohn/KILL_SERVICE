@@ -78,7 +78,7 @@ namespace runThd_namespace
                     Thread.Sleep(100);
                 }
             }
-            catch (Exception ex)
+            catch
             {
                 //MessageBox.Show(ex.Message);
             }

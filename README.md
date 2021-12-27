@@ -2,8 +2,8 @@
 <br>
 Process auto killer<br>
 <br>
-版本：1.12<br>
-最後發佈日期：2021-03-03<br> 
+版本：1.3<br>
+最後發佈日期：2021-12-27<br> 
 <br>
 因為病毒太多，總覺得每次打開工作管理員都要刪半天，刪了又跑出來，刪了又跑出來，覺得很煩。<br>
 <br>                                                                                        
@@ -30,8 +30,7 @@ Process auto killer<br>
   <li>3、Background thread start / stop</li>
   <li>4、Process list / Process kill</li>
   <li>5、Base64 Icon decode</li>
-  <li>6、GridView Style、GridView Button</li>
-  <li>
+  <li>6、GridView Style、GridView Button</li>  
 </ul>
 <h3>ToDo：</h3>
 <ul>
@@ -40,4 +39,5 @@ Process auto killer<br>
   <li>(Done 2020-07-21)3、加入說明</li>
   <li>(Done 2020-07-21)4、修正 icon 不需要產出檔案</li>
   <li>(Done 2021-03-03)5、修正在執行時關閉程式(按X)，可以完全離開程式</li>
+  <li>(Done 2021-12-27)6、如果 proc.kill 失效，就用 taskkill.exe /f /pid [pid] 強制關閉</li>
 </ul>  

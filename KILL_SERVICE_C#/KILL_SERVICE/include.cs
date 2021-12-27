@@ -182,11 +182,20 @@ namespace utility
             try
             {
                 Process proc = Process.GetProcessById(pid);
-                if (!proc.HasExited) proc.Kill();
+                if (!proc.HasExited)
+                {
+                    proc.Kill();
+                }
             }
             catch (ArgumentException)
             {
                 // Process already exited.
+                Process proc = Process.GetProcessById(pid);
+                if (!proc.HasExited)
+                {
+                    string cmd = "taskkill /f /pid " + pid + " && exit";
+                    system(cmd);
+                }
             }
         }
         public string system(string command)
